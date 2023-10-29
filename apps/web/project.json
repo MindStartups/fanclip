@@ -23,7 +23,8 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "web:build",
-        "dev": true
+        "dev": true,
+        "proxyConfig": "apps/web/proxy.conf.json"
       },
       "configurations": {
         "development": {
@@ -61,6 +62,19 @@
       "outputs": ["{options.outputFile}"],
       "options": {
         "lintFilePatterns": ["apps/web/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "e2e": {
+      "executor": "@nx/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/web/cypress.config.ts",
+        "testingType": "e2e",
+        "devServerTarget": "web:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "web:serve:production"
+        }
       }
     }
   },
