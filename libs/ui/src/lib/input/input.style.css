@@ -1,0 +1,33 @@
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 443px;
+  height: 108px;
+  flex-shrink: 0;
+  align-items: flex-end;
+}
+.inputTextField {
+  width: 440px;
+  height: 54px;
+  padding: 16px 17px 17px 17px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #3f3b45;
+  background: #201e23;
+}
+.inputButton {
+  display: flex;
+  width: 161px;
+  height: 32px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #be8dfc;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  background-color: white;
+}
