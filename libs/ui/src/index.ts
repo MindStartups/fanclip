@@ -3,3 +3,4 @@ export * from './lib/ui';
 export { Logo } from './lib/Logo';
 export { Appbar } from './lib/Appbar';
 export { ItemSlide } from './lib/ItemSlide';
+export { Slide } from './lib/slide/slide';
