@@ -1,6 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
+import {Footer} from '@fanclip/ui';
 
 const StyledPage = styled.div`
   .page {
@@ -418,6 +419,7 @@ export default async function Index() {
           </p>
         </div>
       </div>
+      <Footer/>
     </StyledPage>
   );
 }

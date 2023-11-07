@@ -7,8 +7,9 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.14.15",
-    "@mui/material": "^5.14.15",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/material": "^5.14.17",
     "@nestjs/common": "^10.0.2",
     "@nestjs/core": "^10.0.2",
     "@nestjs/platform-express": "^10.0.2",
