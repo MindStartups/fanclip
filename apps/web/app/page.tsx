@@ -1,6 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
+// import { ArrowButtons } from '@fanclip/ui';
 
 const StyledPage = styled.div`
   .page {
@@ -23,6 +24,19 @@ export default async function Index() {
               Welcome web 👋
             </h1>
           </div>
+
+
+          {/* Prueba de renderizado de Arrows */}
+          {/* <div>
+            <ArrowButtons
+              onBack={() => {
+                alert("Clicked on back button");
+              }}
+              onForward={() => {
+                console.log("Clicked on forward button");
+              }}
+            />
+          </div> */}
 
           <div id="hero" className="rounded">
             <div className="text-container">
