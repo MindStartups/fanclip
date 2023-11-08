@@ -30,7 +30,7 @@ export const ItemSlide: React.FC<ItemSlideProps> = ({ variant }) => {
             display: 'inline-flex',
             flexDirection: 'column',
             alignItems: 'center',
-            backgroundColor: 'red',
+
             gap: '5px',
             height: '100%',
           }}

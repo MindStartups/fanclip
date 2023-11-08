@@ -7,7 +7,8 @@ const StyledPage = styled.div`
   .page {
   }
 `;
-
+import { Slide } from '../../../libs/ui/src/lib/slide/slide';
+import { ItemSlide } from '../../../libs/ui/src/lib/ItemSlide/index';
 export default async function Index() {
   /*
    * Replace the elements below with your own.
