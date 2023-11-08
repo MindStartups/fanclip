@@ -1,6 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
+// import { StarRating } from 'fanclip/ui';
 
 const StyledPage = styled.div`
   .page {
@@ -23,6 +24,16 @@ export default async function Index() {
               Welcome web 👋
             </h1>
           </div>
+
+
+
+          {/* Aqui va el renderizado de la estrella */}
+          {/* <div>
+            <h1>Califica nuestro producto</h1>
+            <StarRating totalStars={5} />
+          </div> */}
+
+
 
           <div id="hero" className="rounded">
             <div className="text-container">
