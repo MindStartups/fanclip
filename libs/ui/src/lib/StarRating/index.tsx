@@ -1,37 +1,30 @@
 import React, { useState } from 'react';
+import Rating from '@mui/material/Rating';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 
 interface StarRatingProps {
   totalStars: number;
 }
 
-const StarRating: React.FC<StarRatingProps> = ({ totalStars }) => {
+export const StarRating: React.FC<StarRatingProps> = ({ totalStars }) => {
   const [rating, setRating] = useState<number>(0);
 
-  const handleStarClick = (star: number) => {
-    setRating(star);
+  const handleStarClick = (event: React.SyntheticEvent, newValue: number | null) => {
+    if (newValue !== null) {
+      setRating(newValue);
+    }
   };
 
-  const renderStars = () => {
-    return Array.from({ length: totalStars }, (_, i) => {
-      const starValue = i + 1;
-      return (
-        <span
-          key={starValue}
-          className={starValue <= rating ? 'star active' : 'star'}
-          onClick={() => handleStarClick(starValue)}
-        >
-          &#9733; {/* Unicode character for a star */}
-        </span>
-      );
-    });
-  }
-
   return (
-    <div>
-      {renderStars()}
-      <p>Calificación: {rating} de {totalStars}</p>
-    </div>
+    <Box>
+      <Rating
+        name="star-rating"
+        value={rating}
+        precision={1}
+        onChange={handleStarClick}
+      />
+      <Typography>Calificación: {rating} de {totalStars}</Typography>
+    </Box>
   );
 };
-
-export default StarRating;
