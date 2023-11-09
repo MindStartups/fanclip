@@ -1,6 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
+// import { Carousel } from '@fanclip/ui'
 
 const StyledPage = styled.div`
   .page {
@@ -23,7 +24,10 @@ export default async function Index() {
               Welcome web 👋
             </h1>
           </div>
-
+{/* 
+          <div>
+            <Carousel />
+          </div> */}
           <div id="hero" className="rounded">
             <div className="text-container">
               <h2>
