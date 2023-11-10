@@ -1,5 +1,6 @@
 // Use this file to export React client components (e.g. those with 'use client' directive) or other non-server utilities
 export * from './lib/ui';
+export { ArrowButtons } from './lib/ArrowButtons';
 export { StarRating } from './lib/StarRating';
 export { Logo } from './lib/Logo';
 export { Appbar } from './lib/Appbar';
