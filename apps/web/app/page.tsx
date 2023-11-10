@@ -1,12 +1,14 @@
 'use client';
 
 import styled from 'styled-components';
+import { StarRating } from '@fanclip/ui';
 
 const StyledPage = styled.div`
   .page {
   }
 `;
-
+import { Slide } from '../../../libs/ui/src/lib/slide/slide';
+import { ItemSlide } from '../../../libs/ui/src/lib/ItemSlide/index';
 export default async function Index() {
   /*
    * Replace the elements below with your own.
@@ -23,6 +25,16 @@ export default async function Index() {
               Welcome web 👋
             </h1>
           </div>
+
+
+
+          {/* Aqui va el renderizado de la estrella */}
+           {/* <div>
+            <h1>Califica nuestro producto</h1>
+            <StarRating totalStars={5} />
+          </div> */}
+
+
 
           <div id="hero" className="rounded">
             <div className="text-container">
