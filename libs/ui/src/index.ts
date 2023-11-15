@@ -4,3 +4,4 @@ export { Logo } from './lib/Logo';
 export { Appbar } from './lib/Appbar';
 export { ItemSlide } from './lib/ItemSlide';
 export { LoginCelebrity } from './lib/LoginCelebrity';
+export { LoginUser } from './lib/LoginUser';
