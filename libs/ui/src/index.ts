@@ -5,4 +5,6 @@ export { StarRating } from './lib/StarRating';
 export { Logo } from './lib/Logo';
 export { Appbar } from './lib/Appbar';
 export { ItemSlide } from './lib/ItemSlide';
+export { LoginCelebrity } from './lib/LoginCelebrity';
 export { Slide } from './lib/slide/slide';
+
