@@ -7,7 +7,7 @@ const StyledPage = styled.div`
   }
 `;
 
-export default async function Index() {
+export default function Index() {
   /*
    * Replace the elements below with your own.
    *
