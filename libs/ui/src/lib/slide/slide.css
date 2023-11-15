@@ -1,0 +1,42 @@
+.slide-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #8036e0;
+}
+
+.slide-title {
+  width: 738px;
+  height: 40px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: -0.1px;
+}
+
+.slide__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.slide-item-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.item-title {
+  color: #f2f1f3;
+  text-align: center;
+  font-family: Inter;
+  font-size: 13.453px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  text-decoration-line: underline;
+}
