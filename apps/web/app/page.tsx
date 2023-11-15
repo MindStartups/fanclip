@@ -23,7 +23,6 @@ export default function Index() {
               Welcome web 👋
             </h1>
           </div>
-
           <div id="hero" className="rounded">
             <div className="text-container">
               <h2>
